@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project: Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>The Odin Book Library</h1>
+        <button type="button" class="addBook" title="Add Book"> + Add Book</button>
+    </div>
+    <div class="cardContainer"></div>
+    <div class="form-container" id="addBookForm" class="myform">
+        <div class="heading">
+            <h3>Add New Book<span class="close" title="Close">&times;</span></h3>
+        </div>
+        <form action="" method="get">
+            <input type="text" placeholder="Title" name="title" required size="30" maxlength="60" />
+            <input type="text" placeholder="Author" name="author" size="30" maxlength="40" required />
+            <input type="number" placeholder="Pages" name="pages" size="15" maxlength="7" required />
+            <h4>Have you read it? <input type="checkbox" name="readStatus" id="readStatus"></h4>
+            <button type="submit" title="Submit" class="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
